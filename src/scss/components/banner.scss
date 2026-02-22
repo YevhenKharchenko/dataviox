@@ -1,5 +1,5 @@
 .cookie-banner-section {
-  background: #fffbe6;
+  background: #fff;
   padding: 40px 16px;
   width: 100%;
   max-width: 375px;
@@ -26,16 +26,16 @@
 }
 
 .cookie-banner-text {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 500;
-  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
   line-height: 1.4;
   text-align: center;
   color: #513902;
   margin-bottom: 20px;
 
   @include media(desktop) {
-    font-size: 20px;
+    font-size: 22px;
     text-align: left;
     max-width: 808px;
     margin-bottom: 0;
@@ -60,12 +60,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #90c733;
+  background: #f8c949;
   padding: 16px 32px;
   border-radius: 12px;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 500;
-  font-size: 16px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
   line-height: 1.4;
   color: #252525;
   width: 100%;
@@ -75,7 +75,7 @@
   &:hover,
   &:focus,
   &:active {
-    background: #7aa92b;
+    background: #e8b429;
   }
 
   @include media(desktop) {
@@ -88,13 +88,13 @@
   align-items: center;
   justify-content: center;
   padding: 15px 31px;
-  border: 1px solid #343434;
+  border: 1px solid #323232;
   border-radius: 12px;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 500;
-  font-size: 16px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
   line-height: 1.4;
-  color: #343434;
+  color: #323232;
   width: 100%;
   max-width: 343px;
   transition:
@@ -104,7 +104,7 @@
   &:hover,
   &:focus,
   &:active {
-    background: #343434;
+    background: #323232;
     color: #fff;
   }
 
