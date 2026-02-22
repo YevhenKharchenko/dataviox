@@ -1,4 +1,6 @@
 .gallery-section {
+  background: #cee5f3;
+
   @include media(desktop) {
   }
 }
@@ -10,16 +12,11 @@
   margin-left: auto;
   margin-right: auto;
   overflow: hidden;
-  background-image: url(../img/gallery/gallery-bg-mob.jpg);
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: cover;
 
   @include media(desktop) {
-    padding-top: 104px;
-    padding-bottom: 104px;
+    padding-top: 80px;
+    padding-bottom: 80px;
     max-width: 1440px;
-    background-image: url(../img/gallery/gallery-bg-desk.jpg);
   }
 }
 
@@ -29,7 +26,10 @@
 }
 
 .gallery-title {
+  margin-bottom: 48px;
+
   @include media(desktop) {
+    margin-bottom: 64px;
   }
 }
 
@@ -53,13 +53,13 @@
 }
 
 .gallery-slide {
-  box-shadow: 4px 4px 12px 0 rgba(109, 109, 109, 0.25);
+  box-shadow: 8px 8px 16px 0 rgba(86, 86, 86, 0.12);
   border-radius: 16px;
   width: 100%;
   max-width: 343px;
 
   @include media(desktop) {
-    max-width: 416px;
+    max-width: 304px;
   }
 }
 

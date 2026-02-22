@@ -1,5 +1,5 @@
 .policy-section {
-  background: #fffbe6;
+  background: #f4e6e3;
   padding-top: 112px;
   padding-bottom: 60px;
 
@@ -10,13 +10,13 @@
 }
 
 .policy-main-title {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 500;
-  font-size: 32px;
-  line-height: 1.4;
+  font-family: 'EB Garamond', sans-serif;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 1.24;
   text-transform: uppercase;
   text-align: center;
-  color: #19444d;
+  color: #014961;
   margin-bottom: 40px;
 
   @include media(desktop) {
@@ -25,24 +25,24 @@
 }
 
 .policy-title {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 700;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.4;
-  color: #19444d;
+  color: #014961;
   margin-bottom: 16px;
 
   @include media(desktop) {
-    font-size: 26px;
+    font-size: 24px;
   }
 }
 
 .policy-text {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.4;
-  color: #19444d;
+  color: #014961;
 
   &:not(:last-child) {
     margin-bottom: 16px;
@@ -59,11 +59,11 @@
 }
 
 .policy-item {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.4;
-  color: #19444d;
+  color: #014961;
   margin-bottom: 8px;
 
   &:last-child {

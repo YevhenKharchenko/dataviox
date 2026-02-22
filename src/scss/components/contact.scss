@@ -1,19 +1,26 @@
 .contact-section {
+  background: #cee5f3;
+
   @include media(desktop) {
   }
 }
 
 .contact-bg-wrapper {
   padding-top: 64px;
-  padding-bottom: 498px;
+  padding-bottom: 80px;
   max-width: 375px;
   margin-left: auto;
   margin-right: auto;
+  background-image: url(../img/contact/contact-bg-mob.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover;
 
   @include media(desktop) {
-    padding-top: 104px;
-    padding-bottom: 782px;
+    padding-top: 80px;
+    padding-bottom: 120px;
     max-width: 1440px;
+    background-image: url(../img/contact/contact-bg-desk.jpg);
   }
 }
 
@@ -23,68 +30,66 @@
 }
 
 .contact-content-wrapper {
+  background: #fff;
+  border: 4px solid #644fb4;
+  border-radius: 26px;
+  padding: 36px 12px;
+
   @include media(desktop) {
+    padding: 60px;
+    max-width: 1088px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
 .contact-title {
-  margin-bottom: 8px;
+  color: #014961;
+  margin-bottom: 4px;
 
   @include media(desktop) {
   }
 }
 
 .contact-subtitle {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 500;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.4;
   text-align: center;
-  color: #19444d;
+  color: #5c679d;
   margin-bottom: 24px;
 
   @include media(desktop) {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 
 .contact-link {
-  background: #fff;
+  background: #644fb4;
   border-radius: 12px;
   padding: 8px 16px;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Poppins', sans-serif;
+  gap: 4px;
+  font-family: 'Inter', sans-serif;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.4;
-  color: #ff5b02;
+  color: #fff;
   word-break: break-all;
   max-width: max-content;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 8px;
 
   @include media(desktop) {
-    font-size: 20px;
+    font-size: 24px;
   }
 }
 
 .arrow-icon {
   min-width: 24px;
-
-  @include media(desktop) {
-  }
-}
-
-.contact-text {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 400;
-  font-size: 13px;
-  line-height: 1.4;
-  text-align: center;
-  color: #9a9a9a;
 
   @include media(desktop) {
   }

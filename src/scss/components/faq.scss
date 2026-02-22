@@ -1,25 +1,11 @@
-.faq-contact-bg-wrapper {
-  max-width: 375px;
-  margin-left: auto;
-  margin-right: auto;
-  background-image: url(../img/faq/faq-bg-mob.jpg);
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: cover;
-
-  @include media(desktop) {
-    max-width: 1440px;
-    background-image: url(../img/faq/faq-bg-desk.jpg);
-  }
-}
-
 .faq-section {
+  background: #cee5f3;
   padding-top: 64px;
   padding-bottom: 64px;
 
   @include media(desktop) {
-    padding-top: 104px;
-    padding-bottom: 104px;
+    padding-top: 80px;
+    padding-bottom: 80px;
   }
 }
 
@@ -29,6 +15,8 @@
 }
 
 .faq-title {
+  margin-bottom: 64px;
+
   @include media(desktop) {
   }
 }
@@ -43,10 +31,9 @@
 }
 
 .faq-list-item {
-  box-shadow: 4px 4px 12px 0 rgba(109, 109, 109, 0.25);
-  background: #fff;
-  border-radius: 12px;
-  padding: 20px 16px;
+  background: #f87583;
+  border-radius: 16px;
+  padding: 16px;
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -71,15 +58,15 @@
 }
 
 .faq-btn-text {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.4;
-  color: #0c0d29;
+  color: #fff;
   text-align: left;
 
   @include media(desktop) {
-    font-size: 20px;
+    font-size: 24px;
   }
 }
 
@@ -102,11 +89,11 @@
 }
 
 .faq-bottom-text {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.4;
-  color: #525252;
+  color: #e9e9e9;
   max-width: 287px;
   max-height: 0;
   overflow: hidden;

@@ -3,4 +3,4 @@ Disallow: /admin/
 Disallow: /private/
 Allow: /
 
-Sitemap: https://growlix.online/sitemap.xml
+Sitemap: https://dataviox.online/sitemap.xml
